@@ -4,8 +4,8 @@ import streamlit as st
 import time
 
 # Set up authentication for Qianfan API
-os.environ["QIANFAN_ACCESS_KEY"] = "5a1d5bfe6e6f4a138caa443e66c4f29f"  # Replace with your actual AK
-os.environ["QIANFAN_SECRET_KEY"] = "060ea48e515b493fbd67021d2f5c46d7"  # Replace with your actual SK
+os.environ["QIANFAN_ACCESS_KEY"] = "QIANFAN_ACCESS_KEY"  # Replace with your actual AK
+os.environ["QIANFAN_SECRET_KEY"] = "QIANFAN_SECRET_KEY"  # Replace with your actual SK
 
 # Initialize the Qianfan ChatCompletion object
 chat_comp = qianfan.ChatCompletion()
