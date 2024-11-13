@@ -7,8 +7,8 @@ client = Qianfan(
  
     # 方式一：使用安全认证AK/SK鉴权
     # 替换下列示例中参数，安全认证Access Key替换your_iam_ak，Secret Key替换your_iam_sk，如何获取请查看https://cloud.baidu.com/doc/Reference/s/9jwvz2egb
-    access_key= "5a1d5bfe6e6f4a138caa443e66c4f29f",
-    secret_key= "060ea48e515b493fbd67021d2f5c46d7",
+    access_key= "access_key",
+    secret_key= "secret_key",
     app_id="116214329"
 
     # 方式二：使用应用BearerToken鉴权
